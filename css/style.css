@@ -1,0 +1,51 @@
+html {
+  margin:0;
+  padding:0;
+  border:0;
+}
+/* Line-height should always be unitless! */
+body {
+  line-height: 1.5;
+  background: white;
+  margin: 0;
+  overflow: hidden;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+/*fb page*/
+#fb-page {
+  width: 520px;
+  height: 648px;
+  position: absolute;
+  background:#ffffff url('../images/bg.png') no-repeat left top;
+}
+
+.button {
+  position: absolute;
+  height: 20px;
+  width: 100px;
+  border: 0px solid black;
+  cursor: pointer;
+}
+
+#fb-page #notfan {
+  width: inherit;
+  height: 157px; 
+  position: absolute;
+  top: 163px;
+  left: 0px;
+  background:#ffffff url('../images/notfan.png') no-repeat left top;
+}
+
+#fb-page #fan {
+  width: inherit;
+  height: 157px;
+  position: absolute;
+  top: 163px;
+  left: 0px;
+  background:#ffffff url('../images/fan.png') no-repeat left top;
+}
