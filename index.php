@@ -6,7 +6,7 @@ require 'fb-php-sdk/src/facebook.php';
 
 //users reacting on a invitation will be redirected
 //to this url
-$fb_page = "http://www.facebook.com/mvb"
+$fb_page = "http://www.facebook.com/mvb";
 $fb = new Facebook(array(
   'appId' => '133206583442452',
   'secret' => '3517f87909aa2140a7aedde74fa39171' ,
@@ -48,7 +48,7 @@ $fbjssdk_url = "http://connect.facebook.net/".$locale."/all.js";
     <?php
     //handle apprequests -> just redirect them.
     if (isset($_GET['request_ids'])) {
-      echo 'top.location.href="'.$fb_page'.";';
+      echo 'top.location.href="'.$fb_page.'";';
     }
     ?>
     FB.init({

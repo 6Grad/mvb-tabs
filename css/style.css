@@ -34,9 +34,9 @@ div {
 
 #fb-page #notfan {
   width: inherit;
-  height: 157px; 
+  height: inherit; 
   position: absolute;
-  top: 163px;
+  top: 0px;
   left: 0px;
   background:#ffffff url('../images/notfan.png') no-repeat left top;
 }
