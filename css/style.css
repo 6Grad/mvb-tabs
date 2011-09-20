@@ -17,35 +17,74 @@ div {
 }
 
 /*fb page*/
-#fb-page {
+#fan, .tab_content, #notfan {
   width: 520px;
   height: 648px;
   position: absolute;
-  background:#ffffff url('../images/bg.png') no-repeat left top;
+  background-color:#ffffff;
 }
 
-.button {
+.tab, .button{
   position: absolute;
-  height: 20px;
-  width: 100px;
   border: 0px solid black;
   cursor: pointer;
 }
 
-#fb-page #notfan {
-  width: inherit;
-  height: inherit; 
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.tab {
+  top: 45px;
+  height: 23px;
+}
+
+.button {
+  width: 20px;
+  height: 10px;
+}
+
+#notfan {
   background:#ffffff url('../images/notfan.png') no-repeat left top;
 }
 
-#fb-page #fan {
-  width: inherit;
-  height: 157px;
-  position: absolute;
-  top: 163px;
-  left: 0px;
-  background:#ffffff url('../images/fan.png') no-repeat left top;
+#fan #button_tab_1 {
+  left:15px;
+  width: 121px;
 }
+
+#fan #button_tab_2 {
+  left: 137px;
+  width: 192px;
+}
+
+.tab_content#tab_1 {
+  background:#ffffff url('../images/tab_1.png') no-repeat left top;
+}
+
+#tab_1 #link_1 {
+  top: 183px;
+  right: 33px;
+  width: 65px
+}
+
+#tab_1 #link_2 {
+  top: 198px;
+  left: 27px;
+  width: 107px
+}
+
+.tab_content#tab_2 {
+  background:#ffffff url('../images/tab_2.png') no-repeat left top;
+  
+}
+
+#tab_2 #link_1 {
+  top: 305px;
+  left: 257px;
+  width: 80px
+}
+
+#tab_2 #link_2 {
+  top: 318px;
+  left: 27px;
+  width: 50px
+}
+
+

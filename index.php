@@ -8,8 +8,8 @@ require 'fb-php-sdk/src/facebook.php';
 //to this url
 $fb_page = "http://www.facebook.com/mvb";
 $fb = new Facebook(array(
-  'appId' => '133206583442452',
-  'secret' => '3517f87909aa2140a7aedde74fa39171' ,
+  'appId' => '267360273285518',
+  'secret' => 'afe67951dbc2e5f9860846f21abb2e69',
 ));
 $isfan = FALSE;
 $locale = 'de_DE';
@@ -35,6 +35,19 @@ $fbjssdk_url = "http://connect.facebook.net/".$locale."/all.js";
     <div id="fb-page">
       
       <div id="fan" >
+        <!---->
+        <div class="tab_content" id="tab_1">
+          <div class="button" id="link_1" onclick="open_link('http://www.mvb-be.ch/onlineberatung/')"></div>
+          <div class="button" id="link_2" onclick="open_link('http://www.mvb-be.ch/onlineberatung/')"></div>
+        </div>
+        <div class="tab_content" style="display: none" id="tab_2">
+          <div class="button" id="link_1" onclick="open_link('mailto:klemon@mvb-be.ch')"></div>
+          <div class="button" id="link_2" onclick="open_link('mailto:klemon@mvb-be.ch')"></div>
+        </div>
+        
+        
+        <div class="tab" id="button_tab_1" tabId="tab_1" onclick="showTab(this);"></div>
+        <div class="tab" id="button_tab_2" tabId="tab_2" onclick="showTab(this);"></div>
       </div>
       
       <div id="notfan"></div>
@@ -63,6 +76,12 @@ $fbjssdk_url = "http://connect.facebook.net/".$locale."/all.js";
     
     if (isFan){
       $('#notfan').fadeOut(500);
+    }
+    
+    function showTab(el) {
+      $('.tab_content').hide();
+      var tab = $(el);
+      $('#' + tab.attr('tabId')).show();
     }
     
     function open_link (url) {
