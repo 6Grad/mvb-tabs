@@ -40,10 +40,6 @@ div {
   height: 10px;
 }
 
-#notfan {
-  background:#ffffff url('../images/notfan.png') no-repeat left top;
-}
-
 #fan #button_tab_1 {
   left:15px;
   width: 121px;
@@ -55,36 +51,24 @@ div {
 }
 
 .tab_content#tab_1 {
-  background:#ffffff url('../images/tab_1.png') no-repeat left top;
+  background:#ffffff url('../images/tab_1-2.png') no-repeat left top;
 }
 
 #tab_1 #link_1 {
-  top: 183px;
-  right: 33px;
-  width: 65px
-}
-
-#tab_1 #link_2 {
-  top: 198px;
-  left: 27px;
-  width: 107px
+  top: 196px;
+  left: 150px;
+  width: 172px
 }
 
 .tab_content#tab_2 {
-  background:#ffffff url('../images/tab_2.png') no-repeat left top;
+  background:#ffffff url('../images/tab_2-2.png') no-repeat left top;
   
 }
 
 #tab_2 #link_1 {
-  top: 305px;
-  left: 257px;
-  width: 80px
-}
-
-#tab_2 #link_2 {
-  top: 318px;
+  top: 320px;
   left: 27px;
-  width: 50px
+  width: 120px
 }
 
 
