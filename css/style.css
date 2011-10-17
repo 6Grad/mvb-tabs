@@ -51,17 +51,17 @@ div {
 }
 
 .tab_content#tab_1 {
-  background:#ffffff url('../images/tab_1-2.png') no-repeat left top;
+  background:#ffffff url('../images/tab_1.png') no-repeat left top;
 }
 
 #tab_1 #link_1 {
   top: 212px;
   left: 28px;
-  width: 198px
+  width: 218px
 }
 
 .tab_content#tab_2 {
-  background:#ffffff url('../images/tab_2-2.png') no-repeat left top;
+  background:#ffffff url('../images/tab_2.png') no-repeat left top;
   
 }
 
